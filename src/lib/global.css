@@ -1,0 +1,80 @@
+:root {
+  --color-accent: oklch(65% 50% 0); /* Define accent color */
+  --border-color: oklch(50% 10% 200 / 40%); /* Define border color */
+  color-scheme: light dark;
+}
+
+body {
+    background-color: #e2dcd5; /*Apply background*/
+    accent-color: var(--color-accent); /* Accent color is allowed for all elements */
+    font: 100%/1.5 system-ui; /* Line height is 1.5 times the font size, website font uses OS’s UI font */
+    max-width: 100ch;
+    margin: auto;
+    padding: 1em;
+}
+
+.food-drive-widget {
+  display: flex;
+  justify-content: center; /* Center the widget */
+  padding: 20px;
+}
+
+.qgiv-embed {
+  width: 100%; /* Responsive width */
+  max-width: 300px; /* Limit max width */
+  height: auto;
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+.divider {
+  width: 50%;
+  margin: 40px auto;
+  border-top: 2px solid #5f6caf; /* Match the title color */
+}
+.project-title {
+  font-size: 3rem; /* Larger font size */
+  font-weight: bold;
+  text-align: center;
+  color: #5f6caf; /* A vibrant color to grab attention */
+  margin: 20px auto;
+  /* margin-top: 20px; */
+  text-transform: uppercase; /* Make the title uppercase */
+}
+
+.project-subtitle {
+  font-size: 1.5rem; /* Smaller than the title */
+  font-weight: 400;
+  text-align: center;
+  color: #5A5A5A; /* Subdued color to complement the title */
+  /* margin-top: 10px; */
+  margin: 10px auto;
+
+}
+.dataset-info {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #6c757d;
+  background-color: #f9f9f9; /* Add a light background color */
+  padding: 10px;             /* Add padding around the text */
+  border-left: 4px solid #6baed6; /* Add a colored left border for emphasis */
+  margin-top: 10px;          /* Add space above the paragraph */
+}
+
+svg {
+  font-family: Arial, sans-serif;
+}
+
+path {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+path:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  margin-top: 30px; /* Increase the margin above the heading */
+  padding-top: 20px; /* Add padding above the heading */
+}
