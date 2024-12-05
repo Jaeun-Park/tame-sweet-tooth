@@ -15,7 +15,7 @@
     onMount(async () => {
         try {
             // console.log("Fetching hierarchical data...");
-            const response = await fetch('/data/hierarchical_recipes.json');
+            const response = await fetch('./data/hierarchical_recipes.json');
             if (!response.ok) throw new Error("Failed to fetch JSON data");
             data = await response.json();
             // console.log("Data loaded:", data);
