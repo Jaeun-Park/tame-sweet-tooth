@@ -185,7 +185,7 @@
     <p>Together, we can make sure every CMU student has access to affordable, nutritious food options that fuel their academic and personal success.</p>
     <p>To healthier students!</p>
     <div style = "text-align: center;">
-        <img src="/images/student image.jpg" alt="Student is buying Kimbap and chia pudding" width="800" style="margin-top: 20px;">   
+        <img src="./images/student image.jpg" alt="Student is buying Kimbap and chia pudding" width="800" style="margin-top: 20px;">   
     </div>
 </div>
 
