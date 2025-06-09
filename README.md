@@ -24,9 +24,11 @@ As the Data Analytics Lead, I built the interactive dashboard to convey nutritio
 ## Problem & Solution
 
 **Problem**
+
 College students facing food insecurity often rely on affordable, processed snacks high in added sugar. Healthy eating options are under-communicated, and existing resources lack engagement or personalization.
 
 **Solution**
+
 This project visualizes the nutritional consequences of everyday dietary choices and recommends alternatives with lower sugar impact. Key features include:
 - Food Insecurity Context: Situates the problem with comparative data
 - Sugar Breakdown by Food Type: Highlights hidden sources of added sugars
