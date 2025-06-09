@@ -1,37 +1,53 @@
 # Tame the Sweet Tooth — Interactive Nutrition Visualizer
 
-This Svelte-based data storytelling app visualizes the sugar content of common foods and compares Korean and American dietary patterns to promote balanced eating.  
+Tame the Sweet Tooth is a Svelte-based data storytelling app that visualizes sugar content in common foods and highlights dietary trade-offs to support healthier decisions among college students.
+
 
 **2nd Place Winner** — Carnegie Mellon IronViz 2024  
 **Role**: Data Analytics Team Lead  
 **Live Demo**: [https://jaeun-park.github.io/tame-sweet-tooth](https://jaeun-park.github.io/tame-sweet-tooth)
 
-
 ---
 
 ## Project Overview
 
-This project raises awareness about excessive sugar consumption among college students and promotes healthier dietary alternatives through cultural insights drawn from Korean eating habits.
+This project addresses excessive sugar consumption among students, especially those facing food insecurity. It presents an engaging, visual alternative to static nutritional guidelines, using interactive charts to show:
 
-As the Data Analytics Lead, I developed a dynamic D3-based dashboard to:
-- Visualize disparities in food insecurity and dietary patterns
-- Compare sugar content across American and Korean food items
-- Propose culturally relevant snacks that align with student behavior and health goals
+- Sugar levels in snacks and meals
+- Gaps in dietary quality
+- Practical alternatives aligned with student habits
+
+As the Data Analytics Lead, I built the interactive dashboard to convey nutritional insights, highlight risks of high-sugar diets, and encourage behavior change through intuitive design.
 
 ---
 
+## Problem & Solution
+
+**Problem**
+College students facing food insecurity often rely on affordable, processed snacks high in added sugar. Healthy eating options are under-communicated, and existing resources lack engagement or personalization.
+
+**Solution**
+This project visualizes the nutritional consequences of everyday dietary choices and recommends alternatives with lower sugar impact. Key features include:
+- Food Insecurity Context: Situates the problem with comparative data
+- Sugar Breakdown by Food Type: Highlights hidden sources of added sugars
+- Nutritionally Balanced Alternatives: Offers practical meal-based snack options like kimbap or chia pudding without emphasizing culture, focusing instead on nutrient balance
+
+---
+
+
 ## Project Goals
 
-- Raise awareness around excessive sugar intake in U.S. campus diets  
-- Inform CMU Dining Services and public audiences with actionable insights and visual narratives
+- Raise awareness of sugar intake in student diets
+- Equip CMU Dining Services and student stakeholders with actionable, visual insights
+- Provide a replicable model for nutritional storytelling tools
 
 ---
 
 ## Visual Features
 
-- **Custom D3.js Visualizations** – Interactive bar charts, hover elements, transitions  
-- **Data-Driven Storytelling** – Scrollable explanations and embedded insights  
-- **Cultural Health Metrics** – Sugar content breakdown by food type and origin
+- **D3.js Visualizations**: Interactive charts, hover feedback, transitions
+- **Dynamic User Experience**: Scrollable insights and visual narratives
+- **Contextualized Health Metrics**: Clear comparison of sugar content across foods
 
 ---
 
